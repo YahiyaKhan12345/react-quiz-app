@@ -1,0 +1,58 @@
+.option {
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .option:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .option.selected {
+    background-color: #d0ebff;
+    border-color: #74c0fc;
+  }
+  
+  .option.correct {
+    background-color: #d3f9d8;
+    border-color: #69db7c;
+  }
+  
+  .option.wrong {
+    background-color: #ffe3e3;
+    border-color: #ff6b6b;
+  }
+  
+  .progress {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+/* Fancy animated gradient background */
+body {
+    background: linear-gradient(-45deg, #ff9a9e, #fad0c4, #a18cd1, #fbc2eb);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+  }
+  
+  /* Keyframes for smooth color transitions */
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
